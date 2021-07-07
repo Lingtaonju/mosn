@@ -19,6 +19,8 @@ github.com/TarsCloud/TarsGo/tars/protocol
 github.com/TarsCloud/TarsGo/tars/protocol/codec
 github.com/TarsCloud/TarsGo/tars/protocol/res/basef
 github.com/TarsCloud/TarsGo/tars/protocol/res/requestf
+# github.com/alangpierce/go-forceexport v0.0.0-20160317203124-8f1d6941cd75
+## explicit
 # github.com/alibaba/sentinel-golang v1.0.2-0.20210112133552-db6063eb263e
 ## explicit
 github.com/alibaba/sentinel-golang/api
@@ -70,6 +72,8 @@ github.com/cch123/supermonkey/internal/xcoff
 # github.com/census-instrumentation/opencensus-proto v0.2.1
 github.com/census-instrumentation/opencensus-proto/gen-go/resource/v1
 github.com/census-instrumentation/opencensus-proto/gen-go/trace/v1
+# github.com/cheekybits/genny v1.0.0
+github.com/cheekybits/genny/generic
 # github.com/cncf/udpa/go v0.0.0-20191209042840-269d4d468f6f
 ## explicit
 github.com/cncf/udpa/go/udpa/annotations
@@ -162,10 +166,10 @@ github.com/gogo/protobuf/proto
 github.com/gogo/protobuf/protoc-gen-gogo/descriptor
 github.com/gogo/protobuf/sortkeys
 github.com/gogo/protobuf/types
-# github.com/golang/mock v1.4.4
+# github.com/golang/mock v1.6.0
 ## explicit
 github.com/golang/mock/gomock
-# github.com/golang/protobuf v1.3.5
+# github.com/golang/protobuf v1.4.2
 ## explicit
 github.com/golang/protobuf/descriptor
 github.com/golang/protobuf/jsonpb
@@ -239,11 +243,36 @@ github.com/lestrrat/go-jwx/jwk
 # github.com/lestrrat/go-pdebug v0.0.0-20180220043741-569c97477ae8
 ## explicit
 github.com/lestrrat/go-pdebug
+# github.com/lucas-clemente/quic-go v0.21.1
+## explicit
+github.com/lucas-clemente/quic-go
+github.com/lucas-clemente/quic-go/internal/ackhandler
+github.com/lucas-clemente/quic-go/internal/congestion
+github.com/lucas-clemente/quic-go/internal/flowcontrol
+github.com/lucas-clemente/quic-go/internal/handshake
+github.com/lucas-clemente/quic-go/internal/logutils
+github.com/lucas-clemente/quic-go/internal/protocol
+github.com/lucas-clemente/quic-go/internal/qerr
+github.com/lucas-clemente/quic-go/internal/qtls
+github.com/lucas-clemente/quic-go/internal/utils
+github.com/lucas-clemente/quic-go/internal/wire
+github.com/lucas-clemente/quic-go/logging
+github.com/lucas-clemente/quic-go/quicvarint
 # github.com/lyft/protoc-gen-validate v0.0.14
 ## explicit
 github.com/lyft/protoc-gen-validate/validate
 # github.com/magiconair/properties v1.8.1
 github.com/magiconair/properties
+# github.com/marten-seemann/chacha20 v0.2.0
+## explicit
+# github.com/marten-seemann/qtls v0.4.1
+## explicit
+# github.com/marten-seemann/qtls-go1-15 v0.1.4
+github.com/marten-seemann/qtls-go1-15
+# github.com/marten-seemann/qtls-go1-16 v0.1.3
+github.com/marten-seemann/qtls-go1-16
+# github.com/marten-seemann/qtls-go1-17 v0.1.0-beta.1.2
+github.com/marten-seemann/qtls-go1-17
 # github.com/matttproud/golang_protobuf_extensions v1.0.1
 github.com/matttproud/golang_protobuf_extensions/pbutil
 # github.com/miekg/dns v1.0.14
@@ -390,7 +419,7 @@ golang.org/x/arch/arm/armasm
 golang.org/x/arch/arm64/arm64asm
 golang.org/x/arch/ppc64/ppc64asm
 golang.org/x/arch/x86/x86asm
-# golang.org/x/crypto v0.0.0-20200221231518-2aa609cf4a9d
+# golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
 ## explicit
 golang.org/x/crypto/chacha20
 golang.org/x/crypto/chacha20poly1305
@@ -403,7 +432,7 @@ golang.org/x/crypto/hkdf
 golang.org/x/crypto/internal/subtle
 golang.org/x/crypto/poly1305
 golang.org/x/crypto/ssh/terminal
-# golang.org/x/net v0.0.0-20200324143707-d3edc9973b7e
+# golang.org/x/net v0.0.0-20210405180319-a5a99cb37ef4
 ## explicit
 golang.org/x/net/bpf
 golang.org/x/net/context
@@ -417,21 +446,21 @@ golang.org/x/net/internal/timeseries
 golang.org/x/net/ipv4
 golang.org/x/net/ipv6
 golang.org/x/net/trace
-# golang.org/x/sync v0.0.0-20190423024810-112230192c58
+# golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
 golang.org/x/sync/errgroup
-# golang.org/x/sys v0.0.0-20201024232916-9f70ab9862d5
+# golang.org/x/sys v0.0.0-20210510120138-977fb7262007
 ## explicit
 golang.org/x/sys/cpu
 golang.org/x/sys/internal/unsafeheader
 golang.org/x/sys/unix
 golang.org/x/sys/windows
-# golang.org/x/text v0.3.2
+# golang.org/x/text v0.3.3
 golang.org/x/text/secure/bidirule
 golang.org/x/text/transform
 golang.org/x/text/unicode/bidi
 golang.org/x/text/unicode/norm
 golang.org/x/text/width
-# golang.org/x/tools v0.0.0-20191125144606-a911d9008d1f
+# golang.org/x/tools v0.1.1
 ## explicit
 golang.org/x/tools/go/ast/astutil
 # google.golang.org/genproto v0.0.0-20200305110556-506484158171
@@ -483,6 +512,45 @@ google.golang.org/grpc/serviceconfig
 google.golang.org/grpc/stats
 google.golang.org/grpc/status
 google.golang.org/grpc/tap
+# google.golang.org/protobuf v1.23.0
+google.golang.org/protobuf/encoding/protojson
+google.golang.org/protobuf/encoding/prototext
+google.golang.org/protobuf/encoding/protowire
+google.golang.org/protobuf/internal/descfmt
+google.golang.org/protobuf/internal/descopts
+google.golang.org/protobuf/internal/detectknown
+google.golang.org/protobuf/internal/detrand
+google.golang.org/protobuf/internal/encoding/defval
+google.golang.org/protobuf/internal/encoding/json
+google.golang.org/protobuf/internal/encoding/messageset
+google.golang.org/protobuf/internal/encoding/tag
+google.golang.org/protobuf/internal/encoding/text
+google.golang.org/protobuf/internal/errors
+google.golang.org/protobuf/internal/fieldnum
+google.golang.org/protobuf/internal/fieldsort
+google.golang.org/protobuf/internal/filedesc
+google.golang.org/protobuf/internal/filetype
+google.golang.org/protobuf/internal/flags
+google.golang.org/protobuf/internal/genname
+google.golang.org/protobuf/internal/impl
+google.golang.org/protobuf/internal/mapsort
+google.golang.org/protobuf/internal/pragma
+google.golang.org/protobuf/internal/set
+google.golang.org/protobuf/internal/strs
+google.golang.org/protobuf/internal/version
+google.golang.org/protobuf/proto
+google.golang.org/protobuf/reflect/protodesc
+google.golang.org/protobuf/reflect/protoreflect
+google.golang.org/protobuf/reflect/protoregistry
+google.golang.org/protobuf/runtime/protoiface
+google.golang.org/protobuf/runtime/protoimpl
+google.golang.org/protobuf/types/descriptorpb
+google.golang.org/protobuf/types/known/anypb
+google.golang.org/protobuf/types/known/durationpb
+google.golang.org/protobuf/types/known/emptypb
+google.golang.org/protobuf/types/known/structpb
+google.golang.org/protobuf/types/known/timestamppb
+google.golang.org/protobuf/types/known/wrapperspb
 # gopkg.in/errgo.v2 v2.1.0
 gopkg.in/errgo.v2/errors
 gopkg.in/errgo.v2/fmt/errors

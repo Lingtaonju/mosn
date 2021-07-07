@@ -6,6 +6,7 @@ require (
 	github.com/HdrHistogram/hdrhistogram-go v1.0.1 // indirect
 	github.com/SkyAPM/go2sky v0.5.0
 	github.com/TarsCloud/TarsGo v1.1.4
+	github.com/alangpierce/go-forceexport v0.0.0-20160317203124-8f1d6941cd75 // indirect
 	github.com/alibaba/sentinel-golang v1.0.2-0.20210112133552-db6063eb263e
 	github.com/apache/dubbo-go-hessian2 v1.7.0
 	github.com/apache/thrift v0.13.0
@@ -18,8 +19,8 @@ require (
 	github.com/ghodss/yaml v1.0.0
 	github.com/go-chi/chi v4.1.0+incompatible
 	github.com/gogo/protobuf v1.3.1
-	github.com/golang/mock v1.4.4
-	github.com/golang/protobuf v1.3.5
+	github.com/golang/mock v1.6.0
+	github.com/golang/protobuf v1.4.2
 	github.com/google/cel-go v0.5.1
 	github.com/hashicorp/go-plugin v1.0.1
 	github.com/json-iterator/go v1.1.9
@@ -28,7 +29,10 @@ require (
 	github.com/juju/testing v0.0.0-20191001232224-ce9dec17d28b // indirect
 	github.com/lestrrat/go-jwx v0.0.0-20180221005942-b7d4802280ae
 	github.com/lestrrat/go-pdebug v0.0.0-20180220043741-569c97477ae8 // indirect
+	github.com/lucas-clemente/quic-go v0.21.1
 	github.com/lyft/protoc-gen-validate v0.0.14
+	github.com/marten-seemann/chacha20 v0.2.0 // indirect
+	github.com/marten-seemann/qtls v0.4.1 // indirect
 	github.com/miekg/dns v1.0.14
 	github.com/mosn/binding v0.0.0-20200413092018-2b47bdb20a9f
 	github.com/mosn/easygo v0.0.0-20201210062404-62796fdb3827
@@ -49,10 +53,10 @@ require (
 	github.com/wasmerio/wasmer-go v1.0.3
 	go.uber.org/atomic v1.7.0
 	go.uber.org/automaxprocs v1.3.0
-	golang.org/x/crypto v0.0.0-20200221231518-2aa609cf4a9d
-	golang.org/x/net v0.0.0-20200324143707-d3edc9973b7e
-	golang.org/x/sys v0.0.0-20201024232916-9f70ab9862d5
-	golang.org/x/tools v0.0.0-20191125144606-a911d9008d1f
+	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
+	golang.org/x/net v0.0.0-20210405180319-a5a99cb37ef4
+	golang.org/x/sys v0.0.0-20210510120138-977fb7262007
+	golang.org/x/tools v0.1.1
 	google.golang.org/genproto v0.0.0-20200305110556-506484158171
 	google.golang.org/grpc v1.28.0
 	gopkg.in/mgo.v2 v2.0.0-20190816093944-a6b53ec6cb22 // indirect
